@@ -12,7 +12,8 @@ def about(request):
     return render(request,'about.html')
 
 
-
+def login(request):
+    return render(request,'login.html')
 
 def add_student(request):
     student = Student(name="Ravi", age=22, email="ravi@gmail.com")
